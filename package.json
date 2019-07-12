@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/rafaelmauricioaraujo/chatbot-test/issues"
   },
-  "homepage": "https://github.com/rafaelmauricioaraujo/chatbot-test#readme"
+  "homepage": "https://github.com/rafaelmauricioaraujo/chatbot-test#readme",
+  "dependencies": {
+    "ibm-watson": "^4.2.1"
+  }
 }
