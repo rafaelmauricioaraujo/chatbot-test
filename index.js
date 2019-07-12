@@ -15,3 +15,18 @@ service.createSession({
   .catch(err => {
     console.log(err);
   });
+
+  service.message({
+    assistant_id: '509eea3e-a13d-440c-bfdf-8edaed55913e',
+    session_id: '3106dd3b-d54f-4676-a7e5-6335835bfb01',
+    input: {
+      'message_type': 'text',
+      'text': 'caps'
+      }
+    })
+    .then(res => {
+      console.log(JSON.stringify(res, null, 2));
+    })
+    .catch(err => {
+      console.log(err);
+    });
