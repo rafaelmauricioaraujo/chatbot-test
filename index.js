@@ -1,14 +1,7 @@
 const AssistantV2 = require('ibm-watson/assistant/v2');
 
-const assistant = new AssistantV2({
-  version: 'V2',
-  username: 'apikey',
-  password: 'uZaBERfqv57oaiFKuk6XlJMH_UGEBKlwIXvaRnr33szn',
-  url: 'https://gateway.watsonplatform.net/assistant/api'
-});
-
 const service = new AssistantV2({
-  iam_apikey: '{apikey}',
+  iam_apikey: 'uZaBERfqv57oaiFKuk6XlJMH_UGEBKlwIXvaRnr33szn',
   version: '2019-07-12',
   url: 'https://gateway.watsonplatform.net/assistant/api'
 });
