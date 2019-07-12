@@ -7,7 +7,7 @@ const service = new AssistantV2({
 });
 
 service.createSession({
-  assistant_id: 'cae4db5f-1c7a-419d-925a-44b19a1a700b'
+  assistant_id: '509eea3e-a13d-440c-bfdf-8edaed55913e'
 })
   .then(res => {
     console.log(JSON.stringify(res, null, 2));
