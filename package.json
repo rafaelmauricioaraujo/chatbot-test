@@ -1,0 +1,23 @@
+{
+  "name": "chatbot-tests",
+  "version": "1.0.0",
+  "description": "Tests to chatbots",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelmauricioaraujo/chatbot-test.git"
+  },
+  "keywords": [
+    "chatbot",
+    "tests"
+  ],
+  "author": "Rafael Araujo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelmauricioaraujo/chatbot-test/issues"
+  },
+  "homepage": "https://github.com/rafaelmauricioaraujo/chatbot-test#readme"
+}
