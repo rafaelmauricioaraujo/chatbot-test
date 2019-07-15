@@ -16,6 +16,7 @@ service.createSession({
     console.log(err);
   });
 
+  /*
   service.message({
     assistant_id: '509eea3e-a13d-440c-bfdf-8edaed55913e',
     session_id: '3106dd3b-d54f-4676-a7e5-6335835bfb01',
@@ -30,3 +31,4 @@ service.createSession({
     .catch(err => {
       console.log(err);
     });
+  */
